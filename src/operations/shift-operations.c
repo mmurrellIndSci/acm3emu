@@ -1,5 +1,6 @@
 #include "../../include/operations/shift-operations.h"
 #include "../../include/util/bitmasks.h"
+#include <assert.h>
 // Display the shifted type
 void DisplaySRType(SRType t, uint32_t shifted) {
 	switch (t)

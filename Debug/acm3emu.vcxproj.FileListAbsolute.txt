@@ -1,0 +1,2 @@
+C:\Users\mmurrell\source\repos\acm3emu\Debug\acm3emu.exe
+C:\Users\mmurrell\source\repos\acm3emu\Debug\acm3emu.pdb
