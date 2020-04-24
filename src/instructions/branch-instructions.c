@@ -59,9 +59,9 @@ void B_T3(const Instruction* ins, StateARMCortexM3* m3)
 	// Instruction: Branch (Conditional) 16bit immediate with some j's up in der
 	// Opcode:		11110 S(10) cond(9-6) imm6 (5-0)  |  10 J1(13) 0 J2(11) imm11(10-0)
 	// Class:		Branches and Misc Control
-	uint_fast32_t S = (ins->high & BITM_SINGLE_10) >> 10;
 	uint_fast16_t J1 = (ins->low & BITM_SINGLE_13) >> 13;
 	uint_fast16_t J2 = (ins->low & BITM_SINGLE_11) >> 11;
+	uint_fast32_t S = (ins->high & BITM_SINGLE_10) >> 10;
 
 	uint_fast32_t I1 = !(J1 ^ S);
 	uint_fast32_t I2 = !(J2 ^ S);
