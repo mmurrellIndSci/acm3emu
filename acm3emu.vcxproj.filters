@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f3f9595a-abe7-479e-b4c9-12ab237aa473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3a0d07ad-41e4-4296-a228-0e004cb24989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{67552cfb-951a-4338-9d64-3791bd8b4914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\instr">
+      <UniqueIdentifier>{b633537d-a8de-4682-b6eb-93db142c6abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ops">
+      <UniqueIdentifier>{690127f7-ec05-4293-b925-7948285ca23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\instr">
+      <UniqueIdentifier>{c88e2bbf-e16e-41a2-84ee-8219d2d3f600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ops">
+      <UniqueIdentifier>{66ba2420-3272-4ee8-9559-ddbeb0030b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{a44082a6-3790-4a0e-bdc4-207a894610b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hex">
+      <UniqueIdentifier>{477fc6f1-d5e0-4561-8559-3fdde2219b5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\bitmasks.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operations\conditional-operations.c">
+      <Filter>src\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operations\shift-operations.c">
+      <Filter>src\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\bit-shift-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\branch-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\compare-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\div-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\load-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\misc-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\move-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\mul-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\store-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\sub-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\add-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\bitfield-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instructions\bit-logical-instructions.c">
+      <Filter>src\instr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\instructions16.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\structs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\getHex.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\bitmasks.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\charToHex.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\operations\conditional-operations.h">
+      <Filter>include\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="include\operations\shift-operations.h">
+      <Filter>include\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\compare-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\div-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\instructions-include.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\load-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\misc-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\move-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\mul-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\store-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\sub-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\add-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\bitfield-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\bit-logical-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\bit-shift-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\instructions\branch-instructions.h">
+      <Filter>include\instr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hex\gg290.hex">
+      <Filter>hex</Filter>
+    </None>
+    <None Include="hex\hextest.hex">
+      <Filter>hex</Filter>
+    </None>
+    <None Include="hex\hextestjtag.hex">
+      <Filter>hex</Filter>
+    </None>
+  </ItemGroup>
+</Project>

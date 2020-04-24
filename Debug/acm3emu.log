@@ -1,0 +1,12 @@
+﻿  add-instructions.c
+C:\Users\mmurrell\source\repos\acm3emu\src\instructions\add-instructions.c(10,1): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  branch-instructions.c
+  move-instructions.c
+  sub-instructions.c
+  shift-operations.c
+C:\Users\mmurrell\source\repos\acm3emu\src\operations\shift-operations.c(18,8): warning C4013: 'assert' undefined; assuming extern returning int
+C:\Users\mmurrell\source\repos\acm3emu\src\operations\shift-operations.c(97,36): warning C4028: formal parameter 1 different from declaration
+  Generating Code...
+C:\Users\mmurrell\source\repos\acm3emu\src\operations\shift-operations.c(94): warning C4716: 'ZeroExtend': must return a value
+shift-operations.obj : error LNK2019: unresolved external symbol _assert referenced in function _ASR_C
+C:\Users\mmurrell\source\repos\acm3emu\Debug\acm3emu.exe : fatal error LNK1120: 1 unresolved externals
