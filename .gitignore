@@ -45,6 +45,7 @@
 *.tlog
 
 # Kernel Module Compile Results
+*.vs/
 *.mod*
 *.cmd
 .tmp_versions/
@@ -52,4 +53,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-*.opendb
+.opendb
