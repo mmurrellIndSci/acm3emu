@@ -45,7 +45,7 @@
 *.tlog
 
 # Kernel Module Compile Results
-**.vs/
+**.vs
 *.mod*
 *.cmd
 .tmp_versions/
