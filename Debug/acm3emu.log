@@ -1,4 +1,0 @@
-﻿  shift-operations.c
-C:\Users\mmurrell\source\repos\acm3emu\src\operations\shift-operations.c(98,36): warning C4028: formal parameter 1 different from declaration
-C:\Users\mmurrell\source\repos\acm3emu\src\operations\shift-operations.c(95): warning C4716: 'ZeroExtend': must return a value
-  acm3emu.vcxproj -> C:\Users\mmurrell\source\repos\acm3emu\Debug\acm3emu.exe
